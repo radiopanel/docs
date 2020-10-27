@@ -1,3 +1,5 @@
+# Filling in the correct stream status url
+
 For icecast streams you would append /status-json.xsl to the end of your URL. For example:
 https://stream.example.com:8000/status-json.xsl
 
