@@ -1,25 +1,22 @@
 # Quick Start
 
-## Getting Super Powers
+## Registration
 
-Becoming a super hero is a fairly straight forward process:
+Register for a radiopanel account on: http://app.radiopanel.co/auth/register
 
-```
-$ give me super-powers
-```
+## Radio station creation
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+After you registered, you will be presented with the option to create a new radio station.
+Press "Create Radio Station"
 
-Once you're strong enough, save the world:
+## Setting up your song history
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+After your radio station creation you will be automatically assigned an admin role that has all the permissions enabled.
+To setup your song history you first have to provide your stream status URL & choose a matching service.
 
+Go to "Settings" in the left hand side menu (you might have to scroll down); and fill in the following things:
+- Stream type
+- Steam status URL (more info (here)[/stream-status-url])
+- Matching service (more info (here)[/matching-services])
 
-
+After you filled these things in correctly and saved your changes you should start to see your song history fill up after a minute.
