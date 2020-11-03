@@ -6,6 +6,7 @@
 ## API Endpoints
 
 * [Slots](api-endpoints/slots/README.md)
+  * [Untitled](api-endpoints/slots/untitled.md)
   * [Live slot](api-endpoints/slots/list-slots.md)
   * [Get multiple slots](api-endpoints/slots/quick-access.md)
 * [Songs](api-endpoints/untitled/README.md)
