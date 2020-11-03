@@ -1,12 +1,12 @@
-# Next slot
+# Later slot
 
-{% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/slots/next" %}
+{% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/slots/later" %}
 {% api-method-summary %}
-Get live slot
+Get a later slot
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint will return the next slot, not per se the slot in the next hour
+This endpoint will return the slot after the next slot, not per se the slot in the next 2 hours
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -75,7 +75,7 @@ This endpoint will return the next slot, not per se the slot in the next hour
 
 {% api-method-response-example httpCode=204 %}
 {% api-method-response-example-description %}
-Empty body if there is no next slot
+Empty body if there is no later slot
 {% endapi-method-response-example-description %}
 
 ```

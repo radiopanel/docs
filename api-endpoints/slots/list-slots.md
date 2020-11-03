@@ -72,6 +72,16 @@ This endpoint will return the currently live slot
 }
 ```
 {% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=204 %}
+{% api-method-response-example-description %}
+Empty body if there is no one live
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
