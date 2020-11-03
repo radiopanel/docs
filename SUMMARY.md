@@ -5,7 +5,7 @@
 
 ## API Endpoints
 
-* [Untitled](api-endpoints/untitled.md)
-* [Song History](api-endpoints/songs/README.md)
-  * [Currently Playing](api-endpoints/songs/currently-playing.md)
+* [Songs](api-endpoints/untitled/README.md)
+  * [Currently Playing](api-endpoints/untitled/currently-playing.md)
+  * [Song History](api-endpoints/untitled/song-history.md)
 
