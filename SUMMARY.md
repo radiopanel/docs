@@ -5,5 +5,6 @@
 
 ## API Endpoints
 
-* [Songs](api-endpoints/songs.md)
+* [Untitled](api-endpoints/untitled.md)
+* [Song History](api-endpoints/songs.md)
 
