@@ -1,8 +1,8 @@
-# List slots
+# Live slot
 
 {% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/slots/live" %}
 {% api-method-summary %}
-List slots
+Get live slot
 {% endapi-method-summary %}
 
 {% api-method-description %}
