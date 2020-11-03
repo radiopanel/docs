@@ -1,8 +1,8 @@
-# Currently Playing
+# Quick access
 
-{% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/song-history/now-playing" %}
+{% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/slots/live" %}
 {% api-method-summary %}
-Currently Playing
+List slots
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -20,6 +20,16 @@ Currently Playing
 
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="beforeDate" type="number" required=false %}
+UNIX timestamp
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="afterDate" type="number" required=false %}
+UNIX timestamp
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
