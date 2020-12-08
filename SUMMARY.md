@@ -14,4 +14,6 @@
 * [Songs](api-endpoints/untitled/README.md)
   * [Currently Playing](api-endpoints/untitled/currently-playing.md)
   * [Song History](api-endpoints/untitled/song-history.md)
+* [Banners](api-endpoints/banners/README.md)
+  * [Banner List](api-endpoints/banners/banner-list.md)
 
