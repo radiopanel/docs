@@ -2,6 +2,7 @@
 
 * [Start](README.md)
 * [Quick Start](quick-start.md)
+* [Custom subdomain](custom-subdomain.md)
 
 ## API Endpoints
 
