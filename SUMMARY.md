@@ -18,3 +18,7 @@
   * [Banner List](api-endpoints/banners/banner-list.md)
   * [Banner detail](api-endpoints/banners/banner-detail.md)
 
+## API Examples
+
+* [JavaScript](api-examples/javascript.md)
+
