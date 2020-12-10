@@ -16,4 +16,5 @@
   * [Song History](api-endpoints/untitled/song-history.md)
 * [Banners](api-endpoints/banners/README.md)
   * [Banner List](api-endpoints/banners/banner-list.md)
+  * [Banner detail](api-endpoints/banners/banner-detail.md)
 

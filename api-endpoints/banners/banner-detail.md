@@ -1,16 +1,12 @@
----
-description: Get banners for your radio's website.
----
+# Banner detail
 
-# Banner List
-
-{% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/banners" %}
+{% api-method method="get" host="https://api.radiopanel.co" path="/api/v1/banners/{banneruuid\]" %}
 {% api-method-summary %}
-Get the banner list
+Get a specific banner
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Get the list of banners
+Get a specific banner
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -29,13 +25,11 @@ Get the list of banners
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Banner found and returned
+Banner found
 {% endapi-method-response-example-description %}
 
 ```
 {
-  "_embedded": [
-    {
       "uuid": "1437e326-90d0-4172-a31c-65fe74cad3b3",
       "name": "radiopaneldiscord",
       "slug": "rpdisc",
@@ -45,32 +39,6 @@ Banner found and returned
       "tenantUuid": "141bc871-f1e5-44b9-98f7-59fd1e31faea",
       "updatedAt": "2020-12-08T10:24:22.488Z",
       "createdAt": "2020-12-08T10:24:22.488Z"
-    }
-  ],
-  "_page": {
-    "totalEntities": 1,
-    "currentPage": 1,
-    "itemsPerPage": 20
-  }
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=204 %}
-{% api-method-response-example-description %}
-No banners found
-{% endapi-method-response-example-description %}
-
-```
-{
-  "_embedded": [
-    
-  ],
-  "_page": {
-    "totalEntities": 0,
-    "currentPage": 1,
-    "itemsPerPage": 20
-  }
 }
 ```
 {% endapi-method-response-example %}
