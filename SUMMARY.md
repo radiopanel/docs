@@ -3,6 +3,7 @@
 * [Start](README.md)
 * [Quick Start](quick-start.md)
 * [Custom subdomain](custom-subdomain.md)
+* [Stream status URL](stream-status-url.md)
 
 ## API Endpoints
 
