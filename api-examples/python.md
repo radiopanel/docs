@@ -18,10 +18,10 @@ headers = {
 j = requests.get("https://api.radiopanel.co/api/v1/slots/live", headers=headers)
 
 if j.text == "":
-    # This function gets triggered when someone is live.
+    # This function gets triggered when no one is live.
     t = "Auto DJ"
 else:
-    # This function gets triggered when no one is live.
+    # This function gets triggered when someone is live.
     json = j.json()
     t = str(json["user"]["firstName"])
 ```
