@@ -12,7 +12,7 @@ description: >-
 fetch('https://api.radiopanel.co/api/v1/slots/live', {
     headers: {
         "x-tenant": "YOUR_TENANT_UUID",
-        "authorization": "YOUR_AUTHORIZATION HEADER"
+        "authorization": "YOUR_AUTHORIZATION_HEADER"
     }
 })
     .then((result) => result.json())
