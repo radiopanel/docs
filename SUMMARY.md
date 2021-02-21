@@ -21,4 +21,5 @@
 ## API Examples
 
 * [JavaScript](api-examples/javascript.md)
+* [Python](api-examples/python.md)
 
