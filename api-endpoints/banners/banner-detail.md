@@ -28,7 +28,7 @@ Get a specific banner
 Banner found
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
       "uuid": "1437e326-90d0-4172-a31c-65fe74cad3b3",
       "name": "radiopaneldiscord",

@@ -28,7 +28,7 @@ This endpoint will return the slot after the next slot, not per se the slot in t
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "uuid": "7a751c6b-7b77-40e9-b8a1-979fa625d330",
     "title": "New slot",
@@ -78,13 +78,11 @@ This endpoint will return the slot after the next slot, not per se the slot in t
 Empty body if there is no later slot
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

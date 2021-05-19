@@ -28,7 +28,7 @@ Currently Playing
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "createdAt": "2020-11-03T15:11:16.911Z",
     "song": {
@@ -53,6 +53,4 @@ Currently Playing
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

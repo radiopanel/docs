@@ -38,7 +38,7 @@ Page nr
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "_embedded": [
         {
@@ -165,6 +165,4 @@ Page nr
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

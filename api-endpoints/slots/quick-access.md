@@ -38,7 +38,7 @@ UNIX timestamp
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "_embedded": [
         {
@@ -92,6 +92,4 @@ UNIX timestamp
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

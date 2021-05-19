@@ -24,3 +24,7 @@
 * [JavaScript](api-examples/javascript.md)
 * [Python](api-examples/python.md)
 
+## Self Hosting
+
+* [Setup](self-hosting/setup.md)
+

@@ -26,4 +26,5 @@ else:
     t = str(json["user"]["firstName"])
 ```
 
-Thanks to Destiny#7463 for this example
+Thanks to Destiny\#7463 for this example
+

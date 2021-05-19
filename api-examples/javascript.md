@@ -28,5 +28,3 @@ fetch('https://api.radiopanel.co/api/v1/slots/live', {
     });
 ```
 
-
-

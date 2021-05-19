@@ -32,7 +32,7 @@ Get the list of banners
 Banner found and returned
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "_embedded": [
     {
@@ -61,10 +61,10 @@ Banner found and returned
 No banners found
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "_embedded": [
-    
+
   ],
   "_page": {
     "totalEntities": 0,
