@@ -5,7 +5,7 @@
 Create a file called `docker-compose.yml` in an empty folder with the following content
 
 ```yaml
-version: "3"
+version: "2.4"
 services:
     api:
         image: radiopanel/radiopanel-api:0.0.1-alpha.1
