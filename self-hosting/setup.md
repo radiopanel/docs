@@ -1,5 +1,9 @@
 # Setup
 
+{% hint style="danger" %}
+This is an alpha version and should be used in production
+{% endhint %}
+
 ### Setup your docker-compose
 
 Create a file called `docker-compose.yml` in an empty folder with the following content
