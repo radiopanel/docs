@@ -1,7 +1,7 @@
 # Setup
 
 {% hint style="danger" %}
-This is an alpha version and should be used in production
+This is an alpha version and should not be used in production
 {% endhint %}
 
 ### Setup your docker-compose
@@ -38,7 +38,7 @@ services:
         environment:
             POSTGRES_DB: radiopanel
             POSTGRES_USER: localuser
-            POSTGRES_PASSWORD: EHajqEuoPG8wCxfcQRpz
+            POSTGRES_PASSWORD: CHANGE_ME
             PGDATA: /data/db
         ports:
             - 5432:5432
@@ -78,7 +78,7 @@ TYPEORM_CONNECTION=postgres
 TYPEORM_HOST=database
 TYPEORM_PORT=5432
 TYPEORM_USERNAME=localuser
-TYPEORM_PASSWORD=EHajqEuoPG8wCxfcQRpz
+TYPEORM_PASSWORD=CHANGE_ME
 TYPEORM_DATABASE=radiopanel
 TYPEORM_LOGGING=false
 TYPEORM_LOGGER=advanced-console
