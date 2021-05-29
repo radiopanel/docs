@@ -16,7 +16,7 @@ Create a file called `docker-compose.yml` in an empty folder with the following 
 version: "2.4"
 services:
     api:
-        image: radiopanel/radiopanel-api:0.0.1-alpha.5
+        image: radiopanel/radiopanel-api:0.0.1-alpha.6
         container_name: radiopanel-api
         volumes:
             - ./uploads:/home/node/uploads:delegated
@@ -27,12 +27,13 @@ services:
                 condition: service_healthy
 
     app:
-        image: radiopanel/radiopanel-app:0.0.1-alpha.5
+        image: radiopanel/radiopanel-app:0.0.1-alpha.6
         container_name: radiopanel-app
         volumes:
             - ./certbot/conf:/etc/letsencrypt
         ports:
-            - 3000:80
+            - 80:80
+            - 443:443
         env_file:
             - .env
         depends_on:
@@ -78,7 +79,7 @@ PORT=80
 NODE_ENV=production
 
 DOMAIN=yourdomain.com
-SSL=false # Set to true if you want certbot to generate SSL certificates
+SSL=false
 FRONTEND_BASEURL=http://yourdomain.com
 UPSTREAM=api
 
