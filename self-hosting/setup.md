@@ -4,6 +4,10 @@
 This is an alpha version and should not be used in production
 {% endhint %}
 
+{% hint style="warning" %}
+Make sure to change the appropriate variables \(keys, password, etc...\)
+{% endhint %}
+
 ### Setup your docker-compose
 
 Create a file called `docker-compose.yml` in an empty folder with the following content
@@ -25,6 +29,8 @@ services:
     app:
         image: radiopanel/radiopanel-app:0.0.1-alpha.1
         container_name: radiopanel-app
+        volumes:
+            - ./certbot/conf:/etc/letsencrypt
         ports:
             - 3000:80
         env_file:
@@ -71,7 +77,9 @@ In the same folder create a `.env` file with the following content and change th
 PORT=80
 NODE_ENV=production
 
-FRONTEND_BASEURL=http://localhost:3501
+DOMAIN=yourdomain.com
+SSL=false # Set to true if you want certbot to generate SSL certificates
+FRONTEND_BASEURL=http://yourdomain.com
 UPSTREAM=api
 
 TYPEORM_CONNECTION=postgres
