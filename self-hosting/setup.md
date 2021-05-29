@@ -1,9 +1,5 @@
 # Setup
 
-{% hint style="danger" %}
-This is an alpha version and should not be used in production
-{% endhint %}
-
 {% hint style="warning" %}
 Make sure to change the appropriate variables \(keys, password, etc...\)
 {% endhint %}
