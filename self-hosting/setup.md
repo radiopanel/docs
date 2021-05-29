@@ -107,5 +107,5 @@ REDIS_PORT=6379
 
 ### Start radiopanel
 
-Now use the command `docker-compose up` and visit http://localhost:3000 to continue installation
+Now use the command `docker-compose up -d` and visit your domain to continue the installation
 
