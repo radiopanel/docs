@@ -26,5 +26,7 @@
 
 ## Self Hosting
 
+* [Common Errors](self-hosting/common-errors/README.md)
+  * [Uploading files & images](self-hosting/common-errors/uploading-files-and-images.md)
 * [Setup](self-hosting/setup.md)
 
