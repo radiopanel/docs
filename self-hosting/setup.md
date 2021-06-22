@@ -12,7 +12,7 @@ Create a file called `docker-compose.yml` in an empty folder with the following 
 version: "2.4"
 services:
     api:
-        image: radiopanel/radiopanel-api:0.0.1-alpha.14
+        image: radiopanel/radiopanel-api:0.0.1-alpha.21
         container_name: radiopanel-api
         volumes:
             - ./uploads:/home/node/uploads:delegated
@@ -23,7 +23,7 @@ services:
                 condition: service_healthy
 
     app:
-        image: radiopanel/radiopanel-app:0.0.1-alpha.14
+        image: radiopanel/radiopanel-app:0.0.1-alpha.21
         container_name: radiopanel-app
         volumes:
             - ./certbot/conf:/etc/letsencrypt
